@@ -1,0 +1,30 @@
+
+
+div{
+    nav{
+        ul{
+            .menuinicio{
+                font-size: 80px;
+                text-align: center;
+                font-family: 'Vina Sans', sans-serif;
+                border: 4px groove black;
+                border-radius: 20px;
+                background-color: rgb(183,21,21);
+                padding: 10px;
+                text-decoration: none;
+                margin-top: 1rem;
+                margin-right:15px;
+            }
+            .menuinicio:hover{background: rgba(210, 103, 34);}
+            //
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            //
+            li{
+                display: block;
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+
+section{
+    main{
+        .titulo-ubicacion{
+            display: inline-block;
+            margin: 50px;
+            padding: 20px;
+            transform: translateX(15rem);
+            border-radius: 10px;
+            font-size: 87px;
+            color: black;
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-decoration: none;
+            background-color: brown;
+        }
+        //
+        .ubicacion{
+            display: block;
+            transform: translateX(20rem);
+        }
+    }
+}

@@ -1,0 +1,26 @@
+
+footer{
+    padding: 20px;
+    background-color:rgb(183,21,21);
+    border-top: 2px solid black;
+        section{
+               .contacto{
+                    background-color: black;
+                    border: 3px solid green;
+                    padding: 10px;
+                    display: flex;
+                    transform: translateX(30rem);
+                    border-radius: 15px;
+                    cursor: pointer;
+               } 
+               .contacto{ background-color: black;}
+               .contacto:hover{background:green;}
+               //
+               .WHATSAPP{
+                text-decoration: none; 
+                font-size: 30px;
+                color: white;
+                
+               }
+            }
+}

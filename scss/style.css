@@ -1,0 +1,358 @@
+@media (max-width: 500px) {
+  header section div a .logoChicken {
+    padding: 20px;
+    transform: translateX(10rem);
+  }
+  header section div a .titulo {
+    display: none;
+  }
+  body {
+    background-color: black;
+  }
+  div nav ul .menuinicio {
+    display: grid;
+    transform: translateX(5rem);
+  }
+  .data1 {
+    font-size: 30px;
+  }
+  .gradiente .card1 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 500px) {
+  section .titulo-menu {
+    font-size: 40px;
+    transform: translateX(1rem);
+    padding: 10px 40px;
+  }
+  main .listas {
+    display: list-item;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/fondo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: black;
+  border-bottom: 2px solid orange;
+  display: block;
+  margin: auto;
+  padding: 0;
+}
+header section div a .logoChicken {
+  height: 160px;
+  width: 300px;
+}
+header section div a .titulo {
+  height: 150px;
+  width: 75%;
+}
+
+section main div .data1 {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.gradiente {
+  margin: 40px;
+  padding: 37px;
+  border-radius: 15px;
+  background-image: linear-gradient(to left, rgb(183, 21, 21), rgb(210, 103, 34));
+  display: flex;
+  margin-bottom: 10rem;
+}
+.gradiente .card1 {
+  font-family: "Bowlby One SC", sans-serif;
+  font-size: 2.5rem;
+  color: black;
+  width: 75%;
+}
+.gradiente .card2 {
+  background-color: saddlebrown;
+  transform: translateY(70px);
+  border-radius: 20px;
+  box-shadow: 0 0 20px 5px black;
+}
+.gradiente .card2 p {
+  margin: 9px;
+  padding: 9px;
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  color: black;
+}
+
+div div #carousel1 {
+  margin: 30px;
+  padding: 20px;
+}
+div div .carousel-inner {
+  height: 35rem;
+}
+
+div nav ul .menuinicio {
+  font-size: 80px;
+  text-align: center;
+  font-family: "Vina Sans", sans-serif;
+  border: 4px groove black;
+  border-radius: 20px;
+  background-color: rgb(183, 21, 21);
+  padding: 10px;
+  text-decoration: none;
+  margin-top: 1rem;
+  margin-right: 15px;
+}
+div nav ul .menuinicio:hover {
+  background: rgb(210, 103, 34);
+}
+div nav ul a {
+  text-decoration: none;
+  color: black;
+}
+div nav ul li {
+  display: block;
+}
+
+section .titulo-menu {
+  display: inline-block;
+  padding: 20px 80px;
+  margin: 30px;
+  transform: translateX(25rem);
+  text-align: center;
+  font-size: 80px;
+  color: black;
+  border: 3px solid red;
+  border-radius: 10px;
+  background-color: rgb(183, 21, 21);
+  box-shadow: 0 0 20px 5px white;
+}
+
+.listas {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto auto;
+  grid-template-rows: 50rem 50rem;
+}
+.listas .card1 .foto-menu {
+  height: 40rem;
+  margin: 5px 20px;
+  padding: 40px;
+}
+.listas .lista1 {
+  display: inline-block;
+  background-color: white;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  border: 5px solid red;
+  transform: translateX(4rem);
+  padding: 10px;
+  border-radius: 5px;
+}
+.listas .card2 .foto-menu2 {
+  height: 25rem;
+  width: 40rem;
+  margin: 30px;
+  padding: 40px;
+}
+.listas .lista2 {
+  background-color: white;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  font-size: 40px;
+  transform: translateX(11rem);
+  border: 5px solid red;
+  border-radius: 5px;
+}
+.listas .card3 .foto-menu3 {
+  height: 28rem;
+  width: 25rem;
+  margin: 60px;
+}
+.listas .lista3 {
+  background-color: white;
+  display: inline-block;
+  font-size: 40px;
+  border: 5px solid red;
+  transform: translateX(3.5rem);
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  margin-bottom: 5rem;
+}
+.listas .card4 .foto-menu4 {
+  height: 35rem;
+  width: 40rem;
+  margin-left: 30px;
+}
+.listas .lista4 {
+  background-color: white;
+  display: inline-block;
+  font-size: 40px;
+  border: 5px solid red;
+  transform: translateX(10rem);
+  margin: 30px;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+section main .titulo-nosotros {
+  background-color: chocolate;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 90px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 40px;
+  padding: 15px;
+  transform: translateX(15rem);
+  border-radius: 15px;
+}
+section main div .texto1 {
+  text-align: center;
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  background-image: linear-gradient(to left, rgb(183, 21, 21), rgb(210, 103, 34));
+  border: 15px solid white;
+  margin: 30px;
+  padding: 15px;
+}
+section main div .img1 {
+  height: 38rem;
+  width: 38rem;
+  transform: translateX(20rem);
+  border-radius: 20px;
+  border: 10px solid red;
+}
+section main div .texto2 {
+  margin: 30px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  background-image: linear-gradient(to left, rgb(210, 103, 34), rgb(183, 21, 21));
+  border: 15px ridge white;
+}
+section main div .img2 {
+  margin: 15px;
+  height: 30rem;
+  width: 50rem;
+  transform: translateX(17rem);
+  border-radius: 20px;
+  border: 10px solid rgb(210, 103, 34);
+}
+
+section main div .titulo-contacto {
+  margin: 40px;
+  background-color: rgb(210, 103, 34);
+  font-size: 85px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  border-radius: 30px;
+}
+section main section div .WhatsApp1 {
+  margin-top: 50px;
+  padding: 20px;
+  border: 10px solid white;
+  background-color: green;
+  font-size: 50px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  border-radius: 30px;
+  transform: translateX(33rem);
+}
+section main section div .WhatsApp1:hover {
+  color: white;
+}
+section main section div .Instagram {
+  padding: 25px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  border: 10px solid white;
+  background-color: palevioletred;
+  font-size: 50px;
+  text-align: center;
+  display: inline-block;
+  transform: translateX(33rem);
+  text-decoration: none;
+  color: black;
+  border-radius: 30px;
+}
+section main section div .Instagram:hover {
+  color: white;
+}
+section div .video1 {
+  height: 550px;
+  width: 75%;
+  margin: 30px;
+  transform: translateX(8rem);
+  box-shadow: 0 0 20px 30px white;
+}
+
+section main .titulo-ubicacion {
+  display: inline-block;
+  margin: 50px;
+  padding: 20px;
+  transform: translateX(15rem);
+  border-radius: 10px;
+  font-size: 87px;
+  color: black;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-decoration: none;
+  background-color: brown;
+}
+section main .ubicacion {
+  display: block;
+  transform: translateX(20rem);
+}
+
+footer {
+  padding: 20px;
+  background-color: rgb(183, 21, 21);
+  border-top: 2px solid black;
+}
+footer section .contacto {
+  background-color: black;
+  border: 3px solid green;
+  padding: 10px;
+  display: flex;
+  transform: translateX(30rem);
+  border-radius: 15px;
+  cursor: pointer;
+}
+footer section .contacto {
+  background-color: black;
+}
+footer section .contacto:hover {
+  background: green;
+}
+footer section .WHATSAPP {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
