@@ -4,18 +4,22 @@ header{
     border-bottom: 2px solid orange;
     display: block;
     margin: auto;
-    padding: 0;
+    padding: 20px 0;
         section{
              div{
                 a{
                     .logoChicken{
-                        height: 160px;
-                        width: 300px;
+                        height: auto;
+                        width: 100%;
+                        max-width: 300px;
                     }
                     //
                     .titulo{
-                        height: 150px;
+                        max-width: 100%;
+                        height: auto;
                         width: 75%;  
+                        max-width: 600px;
+                        margin: 0 auto;
                     }
                     
                 }
