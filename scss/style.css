@@ -323,7 +323,7 @@ section main div .texto1 {
   margin: 30px;
   padding: 15px;
 }
-section main div .img1 {
+section main div .img2 {
   height: 38rem;
   width: 38rem;
   transform: translateX(20rem);
@@ -340,7 +340,7 @@ section main div .texto2 {
   background-image: linear-gradient(to left, rgb(210, 103, 34), rgb(183, 21, 21));
   border: 15px ridge white;
 }
-section main div .img2 {
+section main div .img1 {
   margin: 15px;
   height: 30rem;
   width: 50rem;
