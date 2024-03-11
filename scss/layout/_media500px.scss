@@ -69,8 +69,12 @@
 
 @media screen and (max-width: 500px) { 
     .listas {
-        display: flex; 
+        grid-template-columns:subgrid; 
+        align-content:space-evenly;
+        display: none;
+
     }
+
 }
 
 @media screen and (max-width: 500px) {
