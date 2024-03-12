@@ -88,3 +88,20 @@
             text-decoration: none;
         }
 }   
+
+
+@media (max-width: 468px) {
+    .listas{ 
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+
+    }
+    //
+    .card1 .card2 .card3 .card4 .foto-menu .foto-menu2 .foto-menu3 .foto-menu4 .lista1 .lista2 .lista3 .lista4 {
+        width: 100%;
+        height: 100%;
+    }
+}

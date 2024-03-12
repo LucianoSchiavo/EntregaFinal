@@ -46,7 +46,7 @@ section{
 }
 div{
     div{
-        #carousel1{
+        .carousel1{
             margin: 30px;
             padding: 20px;
         }
@@ -57,4 +57,46 @@ div{
     }
 }    
 
-        
+@media (max-width: 468px){
+    section{
+        main{
+            div{
+                .data1{
+                    transform: translateX(3rem);
+                    margin-top: 10px;
+                    text-align: center;
+                    font-size: 1.5rem;
+                    color: white;
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;           
+                }
+            }
+        }
+    }
+    .gradiente{
+       .card1{
+            width: 100%;
+            height: 100%;
+            margin: 20px;
+            padding: 30px;
+            font-size: 1.5rem;
+            padding-left: 1px;
+        } 
+        .card2{
+            width: 100%;
+            height: 100%;
+            margin: 20px;
+            padding: 30px;
+            font-size: 1rem;
+            transform: translateY(-2rem);
+            transform: translateX(-5.5rem);
+        }
+    
+    }
+        .carousel1{
+            width: 100%;
+            height: 100%;
+        }
+    
+    
+    
+}        

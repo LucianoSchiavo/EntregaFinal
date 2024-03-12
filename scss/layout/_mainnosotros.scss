@@ -59,3 +59,34 @@ section{
         }
     }
 }
+
+@media (max-width: 468px) {
+    section{
+        main{
+            .titulo-nosotros{
+                font-size: 50px;
+                transform: translateX(1rem);
+                border-radius: 15px;
+            }
+            div{
+                .texto1{
+                   
+                    background-image: linear-gradient(to left, rgb(183,21,21),rgba(210, 103, 34) );
+                    border: 15px solid white;
+                    width: 100%;
+                    height: 100%;
+                }
+                .img2{
+                    width: 100%;
+                    height: 100%;
+                    transform: translateX(-0rem);
+                }
+                .img1{
+                    width: 100%;
+                    height: 100%;
+                    transform: translateX(-0rem);
+                }
+            }
+        }
+    }  
+}      

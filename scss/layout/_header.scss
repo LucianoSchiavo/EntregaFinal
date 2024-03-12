@@ -27,3 +27,20 @@ header{
         }
 }
 
+@media (max-width: 468px) {
+    .titulo{
+        display: none;
+    }
+    .logoChicken{
+       transform: translateX(5.5rem); 
+    }
+}
+
+@media (min-width: 720px) {
+    .logoChicken{
+        display: none;
+    }
+    .titulo{
+        transform: translateX(4rem);
+    }
+}

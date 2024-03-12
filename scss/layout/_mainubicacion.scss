@@ -21,3 +21,20 @@ section{
         }
     }
 }
+
+@media (max-width: 468px) {
+    section{
+        main{
+            .titulo-ubicacion{
+                transform: translateX(-0.5rem);
+                border-radius: 10px;
+                font-size: 40px;
+            }
+            //
+            .ubicacion{
+                display: block;
+                transform: translateX(20rem);
+            }
+        }
+    }
+}

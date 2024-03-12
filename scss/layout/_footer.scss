@@ -24,3 +24,8 @@ footer{
                }
             }
 }
+@media (max-width: 468px) {
+    section{
+        transform: translateX(-5rem);
+    }
+}

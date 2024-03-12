@@ -14,3 +14,21 @@ section{
         box-shadow:  0 0 20px 5px white ;
     }
 }
+
+@media (max-width: 468px) {
+    section{
+        .titulo-menu{
+            display: inline-block;
+            padding: 20px 80px;
+            margin: 30px;
+            transform: translateX(-1px);
+            text-align: center;
+            font-size: 30px;
+            color: black;
+            border: 3px solid red;
+            border-radius: 10px;
+            background-color: rgb(183,21,21);
+            box-shadow:  0 0 20px 5px white ;
+        }
+    }
+}
